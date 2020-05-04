@@ -43,44 +43,7 @@ def decoder(binary_matrix, dictionary):
     return "".join(text_list)
 
 
-def create_training(char_nums, num_samples, str_length):
-    '''Create training dataset with x and y values from your numeric list.
-    The x data is a list of numeric sequences, and the y data is those sequences
-    shifted one character to the right.'''
-    # Get starting indices of the random samples for your training batch
-    start_indices = sample(char_nums[0:(len(char_nums)-str_length-1)], num_samples)
-    
-    # The x_values begin at the starting indices and are str_length characters long
-    # The y_values begin one character into the x_values and end one character longer than x_values
-    x_data = np.array(char_nums[0:str_length])
-    y_data = np.array(char_nums[1:str_length+1])
-    for i in range(1,num_samples):
-        x_data = np.vstack((x_data, np.array(char_nums[i:i+str_length])))
-        y_data = np.vstack((y_data, np.array(char_nums[i+1:i+str_length+1])))
-    
-    #return x_data, y_data
-    return x_data, y_data
-
-
-def create_training2(char_nums, num_samples, str_length):
-    '''Create training dataset with x and y values from your numeric list.
-    The x data is a list of numeric sequences, and the y data is the next character.'''
-    # Get starting indices of the random samples for your training batch
-    start_indices = sample(char_nums[0:(len(char_nums)-str_length-1)], num_samples)
-    
-    # The x_values begin at the starting indices and are str_length characters long
-    # The y_values begin one character into the x_values and end one character longer than x_values
-    x_data = np.array(char_nums[0:str_length])
-    y_data = [char_nums[str_length]]
-    for i in range(1,num_samples):
-        x_data = np.vstack((x_data, np.array(char_nums[i:i+str_length])))
-        y_data.append(char_nums[i+str_length])
-    
-    #return x_data, y_data
-    return x_data, y_data
-
-
-def create_training3(char_nums, str_length, vocab_size):
+def create_training(char_nums, str_length, vocab_size):
     '''Create training dataset with x and y values from your numeric list.
     The x data is a list of all numeric sequences, and the y data is the next character.'''
     
