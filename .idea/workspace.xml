@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09d5acb3-304b-4be1-ba0f-991b2952d957" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/code/LSTM Recurrent Neural Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/LSTM Recurrent Neural Network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/abc featurization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/abc featurization.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bS42TMakvOP0Lkf9xLEvgzRwts" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Resaerch Assistantship/BossPrediction" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09d5acb3-304b-4be1-ba0f-991b2952d957" name="Default Changelist" comment="" />
+      <created>1588611953388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588611953388</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1588616087518">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1588616087518" />
+  </component>
+</project>
